@@ -25,8 +25,7 @@ pip3 install git+https://github.com/nnnnnnn0090/PyJsonX
 #### JSON 内に Python コードを埋め込む
 
 JSON 内に Python コードを埋め込むには、`<?py ... ?>` タグを使用します。以下に例を示します：
-<img width="660" alt="スクリーンショット 2024-08-18 19 32 56" src="https://github.com/user-attachments/assets/0af18fc9-6aa5-4c01-b3aa-072660347d17">
-
+<img width="663" alt="スクリーンショット 2024-08-18 20 03 28" src="https://github.com/user-attachments/assets/13b19e38-40ce-4450-b697-298dbeb1aa33">  
 ↓
 ```json
 {
