@@ -1,0 +1,79 @@
+{
+    "scopeName": "source.pyjsonX",
+    "patterns": [
+        {
+            "include": "#json"
+        },
+        {
+            "include": "#python"
+        }
+    ],
+    "repository": {
+        "json": {
+            "patterns": [
+                {
+                    "name": "comment.line.double-slash.json",
+                    "match": "//.*$"
+                },
+                {
+                    "name": "comment.block.json",
+                    "begin": "/\\*",
+                    "end": "\\*/"
+                },
+                {
+                    "name": "string.quoted.double.json",
+                    "begin": "\"",
+                    "end": "\"",
+                    "patterns": [
+                        {
+                            "name": "constant.character.escape.json",
+                            "match": "\\\\."
+                        }
+                    ]
+                },
+                {
+                    "name": "constant.numeric.json",
+                    "match": "\\b\\d+\\b"
+                },
+                {
+                    "name": "punctuation.separator.key-value.json",
+                    "match": ":"
+                },
+                {
+                    "name": "punctuation.separator.array.json",
+                    "match": ","
+                },
+                {
+                    "name": "punctuation.definition.array.begin.json",
+                    "match": "\\["
+                },
+                {
+                    "name": "punctuation.definition.array.end.json",
+                    "match": "\\]"
+                },
+                {
+                    "name": "punctuation.definition.dictionary.begin.json",
+                    "match": "\\{"
+                },
+                {
+                    "name": "punctuation.definition.dictionary.end.json",
+                    "match": "\\}"
+                }
+            ]
+        },
+        "python": {
+            "patterns": [
+                {
+                    "name": "source.python",
+                    "begin": "(<\\?py)",
+                    "end": "(\\?>)",
+                    "patterns": [
+                        {
+                            "include": "source.python"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

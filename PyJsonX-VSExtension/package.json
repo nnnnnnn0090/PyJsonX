@@ -1,0 +1,49 @@
+{
+	"name": "pyjsonX",
+	"displayName": "PyJsonX Syntax",
+	"description": "A VSCode extension that adds syntax highlighting for JSON files with embedded Python code. Supports `.pyjsonX` files where Python code snippets can be included within JSON structures.",
+	"version": "0.0.1",
+    "icon": "languagepack.png",
+	"publisher": "nnnnnnn0090",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"homepage": "https://github.com/nnnnnnn0090/pyjsonX",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nnnnnnn0090/pyjsonX"
+	},
+	"keywords": [
+		"json",
+		"json5",
+		"pyjsonx",
+		"pyjsonX",
+		"syntax",
+		"highlight"
+	],
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "pyjsonX",
+				"aliases": [
+					"pyjsonX"
+				],
+				"extensions": [
+					".pyjsonX"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "pyjsonX",
+				"scopeName": "source.pyjsonX",
+				"path": "./syntaxes/pyjsonX.tmLanguage.json"
+			}
+		]
+	}
+}
