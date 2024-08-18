@@ -17,8 +17,10 @@ pip3 install git+https://github.com/nnnnnnn0090/PyJsonX
 
 ### 拡張子
 
-- `PyJsonX` では `.pyjsonX` 拡張子を使用します。[example.pyjsonX](https://github.com/nnnnnnn0090/PyJsonX/blob/main/PyJsonX/example.pyjsonX)  
-  VSCode には `.pyjsonX` ファイル用の拡張機能があります。[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nnnnnnn0090.pyjsonX)
+`PyJsonX` では `.pyjsonX` 拡張子を使用します。  
+[example.pyjsonX](https://github.com/nnnnnnn0090/PyJsonX/blob/main/PyJsonX/test/example.pyjsonX)  
+VSCode には `.pyjsonX` ファイル用の拡張機能があります。  
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nnnnnnn0090.pyjsonX)
 
 ### 使用方法
 

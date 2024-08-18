@@ -17,8 +17,10 @@ pip3 install git+https://github.com/nnnnnnn0090/PyJsonX
 
 ### File Extension
 
-- `PyJsonX` uses the `.pyjsonX` extension. [example.pyjsonX](https://github.com/nnnnnnn0090/PyJsonX/blob/main/PyJsonX/example.pyjsonX)  
-  VSCode has an extension for `.pyjsonX` files. [VisualStudio MarketPlace](https://marketplace.visualstudio.com/items?itemName=nnnnnnn0090.pyjsonX)
+`PyJsonX` uses the `.pyjsonX` extension.  
+[example.pyjsonX](https://github.com/nnnnnnn0090/PyJsonX/blob/main/PyJsonX/test/example.pyjsonX)  
+VSCode has an extension for `.pyjsonX` files.   
+[VisualStudio MarketPlace](https://marketplace.visualstudio.com/items?itemName=nnnnnnn0090.pyjsonX)
 
 ### Usage
 
