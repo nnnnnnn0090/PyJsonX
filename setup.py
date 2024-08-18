@@ -7,7 +7,7 @@ AUTHOR_EMAIL = 'nnnnnnn0090@gmail.com'
 URL = 'https://github.com/nnnnnnn0090/PyJsonX'
 LICENSE = 'MIT'
 DOWNLOAD_URL = 'https://github.com/nnnnnnn0090/PyJsonX'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 PYTHON_REQUIRES = ">=3.0"
 
 def read_readme():

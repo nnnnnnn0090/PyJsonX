@@ -29,7 +29,7 @@ def execute_python_code(code):
         exec(wrapped_code, globals(), local_vars)
     except Exception as e:
         return f"Error executing code: {e}"
-    return local_vars.get('result', '')
+    return str(local_vars.get('result', ''))
 
 def replace_python_code_tags(pyjson):
     pattern = re.compile(r'<\?py(.*?)\?>', re.DOTALL)
